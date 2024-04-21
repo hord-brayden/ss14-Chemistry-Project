@@ -1,6 +1,6 @@
 let inventory = {};
 let reactions = [
-    // Example: Convert your YAML reaction data to JSON format here
+    //  YAML reaction data to JSON 
 ];
 
 // Function to add chemicals to the inventory
@@ -63,5 +63,5 @@ function populateProductSelector() {
     });
 }
 
-// Call this function when the page loads to populate the product dropdown
+// page loads to populate the product dropdown
 window.onload = populateProductSelector;
