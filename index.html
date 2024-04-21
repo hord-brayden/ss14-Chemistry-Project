@@ -28,7 +28,7 @@ async function loadYAML() {
     const response = await fetch('reactions.yaml');
     const yamlText = await response.text();
     const data = jsyaml.load(yamlText);
-    console.log(data); // Use this data as needed in your app
+    console.log(data); 
 }
 window.onload = loadYAML;
 </script>
